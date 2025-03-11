@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35706.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2025_0310_TemplateLeranninig", "2025_0310_TemplateLeranninig.vcxproj", "{4520BC01-492C-40F5-9D6E-6C2A8DE8CF3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4520BC01-492C-40F5-9D6E-6C2A8DE8CF3D}.Debug|x64.ActiveCfg = Debug|x64
+		{4520BC01-492C-40F5-9D6E-6C2A8DE8CF3D}.Debug|x64.Build.0 = Debug|x64
+		{4520BC01-492C-40F5-9D6E-6C2A8DE8CF3D}.Debug|x86.ActiveCfg = Debug|Win32
+		{4520BC01-492C-40F5-9D6E-6C2A8DE8CF3D}.Debug|x86.Build.0 = Debug|Win32
+		{4520BC01-492C-40F5-9D6E-6C2A8DE8CF3D}.Release|x64.ActiveCfg = Release|x64
+		{4520BC01-492C-40F5-9D6E-6C2A8DE8CF3D}.Release|x64.Build.0 = Release|x64
+		{4520BC01-492C-40F5-9D6E-6C2A8DE8CF3D}.Release|x86.ActiveCfg = Release|Win32
+		{4520BC01-492C-40F5-9D6E-6C2A8DE8CF3D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8752A597-E607-4E98-A8BC-AFA0E795E490}
+	EndGlobalSection
+EndGlobal
