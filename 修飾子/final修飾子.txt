@@ -1,0 +1,17 @@
+継承やoverrideを禁止する修飾子です
+
+// 例１
+class A {
+public:
+    virtual void func() final {}  // オーバーライド禁止
+};
+
+class B : public A {
+public:
+    void func() override {} // コンパイルエラー！funcはfinalだから上書き不可
+};
+
+// 例２
+class A final {};      // final修飾されたクラス
+
+class B : public A {}; // コンパイルエラー！Aはfinalだから継承不可
