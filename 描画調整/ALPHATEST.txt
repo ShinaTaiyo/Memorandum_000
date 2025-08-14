@@ -1,0 +1,4 @@
+// アルファテストを有効にする
+pDev->SetRenderState(D3DRS_ALPHATESTENABLE, TRUE); // アルファ値に応じて描画するかしないかを決めれる
+pDev->SetRenderState(D3DRS_ALPHAREF, 0); // 基準値
+pDev->SetRenderState(D3DRS_ALPHAFUNC, D3DCMP_GREATER); // 基準値より上なら描画する
